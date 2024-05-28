@@ -1,0 +1,78 @@
+/* Media Queries for Small Screens */
+@media (max-width: 575.98px) {
+  /*	common start*/
+    .h1 { font-size: 36px; line-height: 48px;}
+    .h2 { font-size: 28px; line-height: 40px;}
+    .h3 { font-size: 24px; line-height: 36px;}
+    .h4 { font-size: 20px; line-height: 32px;}
+    .h5 { font-size: 18px; line-height: 30px;}
+    .h6 { font-size: 16px; line-height: 28px;}
+
+    .cmn_padd{ padding-top: 60px; padding-bottom: 60px;}
+/*common end*/
+/* General Container Style */
+.container {
+  overflow-x: hidden;
+}
+
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	/*	common start*/
+    .h1 { font-size: 42px; line-height: 60px;}
+    .h2 { font-size: 36px; line-height: 52px;}
+    .h3 { font-size: 28px; line-height: 42px;}
+    .h4 { font-size: 24px; line-height: 40px;}
+    .h5 { font-size: 20px; line-height: 35px;}
+    .h6 { font-size: 17px; line-height: 32px;}
+
+    .cmn_padd{ padding-top: 75px; padding-bottom: 75px;}
+/*common end*/
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	/*	common start*/
+    .h1 { font-size: 48px; line-height: 66px;}
+    .h2 { font-size: 42px; line-height: 60px;}
+    .h3 { font-size: 32px; line-height: 48px;}
+    .h4 { font-size: 28px; line-height: 44px;}
+    .h5 { font-size: 20px; line-height: 40px;}
+    .h6 { font-size: 18px; line-height: 36px;}
+
+    .cmn_padd{ padding-top: 90px; padding-bottom: 90px;}
+/*common end*/
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	/*	common start*/
+    .h1 { font-size: 54px; line-height: 72px;}
+    .h2 { font-size: 48px; line-height: 66px;}
+    .h3 { font-size: 36px; line-height: 54px;}
+    .h4 { font-size: 30px; line-height: 48px;}
+    .h5 { font-size: 20px; line-height: 40px;}
+    .h6 { font-size: 18px; line-height: 36px;}
+
+    .cmn_padd{ padding-top: 100px; padding-bottom: 100px;}
+/*common end*/
+}
+
+/*Extra Large devices (desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+	/*	common start*/
+    .h1 { font-size: 58px; line-height: 76px;}
+    .h2 { font-size: 52px; line-height: 70px;}
+    .h3 { font-size: 40px; line-height: 58px;}
+    .h4 { font-size: 32px; line-height: 50px;}
+    .h5 { font-size: 20px; line-height: 40px;}
+    .h6 { font-size: 18px; line-height: 36px;}
+
+    .cmn_padd{ padding-top: 110px; padding-bottom: 110px;}
+/*common end*/
+}
+
+/*Extra Extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) {}
